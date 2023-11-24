@@ -1,1 +1,47 @@
-dooormaster
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			* {
+				border: 0;
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: url('bg.png');
+				background-attachment: fixed;
+				background-size: cover;
+				text-align: center;
+				border: 1rem inset #3a2a58;
+			}
+			iframe {
+				display: inline-block;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				border: 2rem double #3a2a58;
+				padding: 1rem;
+				border-radius: 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/yGx9E0l9zXk?si=nwNVYwobUXHCbWCj&amp;controls=0"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen
+		></iframe>
+	</body>
+</html>
+
